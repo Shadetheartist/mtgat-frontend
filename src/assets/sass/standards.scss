@@ -1,0 +1,50 @@
+@import "vars";
+
+@mixin p($n){
+  padding: $base-padding * $n;
+}
+
+@mixin m($n){
+  margin: $base-margin * $n;
+}
+
+.p1 {
+  @include p(1)
+}
+
+.p2 {
+  @include p(2)
+}
+
+.p3 {
+  @include p(3)
+}
+
+.p4 {
+  @include p(4)
+}
+
+.p5 {
+  @include p(5)
+}
+
+
+.m1 {
+  @include m(1)
+}
+
+.m2 {
+  @include m(2)
+}
+
+.m3 {
+  @include m(3)
+}
+
+.m4 {
+  @include m(4)
+}
+
+.m5 {
+  @include m(5)
+}
